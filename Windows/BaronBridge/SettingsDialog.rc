@@ -1,0 +1,43 @@
+// Copyright (C) 2026 Baron Potato
+// SPDX-License-Identifier: GPL-3.0-only
+
+#pragma code_page(65001)
+#include <windows.h>
+#include "Resource.h"
+
+IDD_BRIDGE_SETTINGS DIALOGEX 0, 0, 270, 98
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Baron Bridge"
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT "Windowsの再生先（WASAPI共有）", -1, 10, 10, 248, 12
+    COMBOBOX IDC_PLAYBACK_ENDPOINT, 10, 26, 250, 120, CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT "録画ソフトでは、この再生先のシステム音声を収録します。", -1, 10, 49, 250, 17
+    DEFPUSHBUTTON "OK", IDOK, 159, 74, 47, 14
+    PUSHBUTTON "キャンセル", IDCANCEL, 210, 74, 50, 14
+END
+
+1 VERSIONINFO
+FILEVERSION 1,0,2,0
+PRODUCTVERSION 1,0,2,0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_DLL
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Baron Potato"
+            VALUE "FileDescription", "Baron Bridge"
+            VALUE "FileVersion", "1.0.2"
+            VALUE "LegalCopyright", "Copyright (C) 2026 Baron Potato"
+            VALUE "OriginalFilename", "BaronBridge.dll"
+            VALUE "ProductName", "Baron Bridge"
+            VALUE "ProductVersion", "1.0.2"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END

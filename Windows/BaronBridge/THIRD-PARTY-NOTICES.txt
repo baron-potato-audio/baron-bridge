@@ -1,0 +1,23 @@
+Baron Bridge 1.0.2
+Copyright (C) 2026 Baron Potato
+
+Baron Bridge is licensed under the GNU General Public License, version 3.
+It is distributed without warranty. See COPYING.txt for the license.
+
+Steinberg ASIO SDK 2.3.4 (2025-10-15)
+
+The driver and test program use three unmodified interface headers from
+the SDK: asio.h, asiosys.h, and iasiodrv.h. The original copyright and
+license notices are retained in the corresponding source. This
+distribution uses the GPLv3 option of the SDK's dual license.
+See Steinberg-SDK-LICENSE.txt or third_party/steinberg-sdk/LICENSE.txt
+for the upstream terms.
+Source: https://www.steinberg.net/asiosdk
+
+Inno Setup 6.7.3
+
+The Windows installer was built with Inno Setup. The Inno Setup engine
+incorporated into the installer retains its own license.
+See Inno-Setup-LICENSE.txt or third_party/inno-setup/LICENSE.txt
+for the upstream terms.
+Source: https://jrsoftware.org/inno-setup

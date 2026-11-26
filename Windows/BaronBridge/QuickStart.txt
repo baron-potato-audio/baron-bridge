@@ -1,0 +1,26 @@
+Baron Bridge 1.0.2
+Baron Potato
+
+Baron Bridgeは、オーディオアプリのステレオ音声をWindowsの再生デバイスへ送り、
+画面録画でシステム音声として収録できるようにする仮想オーディオドライバーです。
+対応環境はWindows 10／11 x64と64ビット版のオーディオアプリです。
+
+インストール
+
+1. ZIPを展開し、Baron-Bridge-x64-Setup.exeを実行します。
+2. オーディオアプリを起動し、出力ドライバーに「Baron Bridge」を選びます。
+3. 既定ではWindowsの既定の再生デバイスに音が出ます。
+   送り先を指定する場合は、オーディオアプリの「Control Panel」を開きます。
+4. 画面録画アプリの「システム音声」または「デスクトップ音声」をオンにします。
+   デバイスを指定できる場合は、Baron Bridgeと同じWindowsの再生先を選びます。
+
+旧版から更新した場合は、オーディオアプリの出力設定で「Baron Bridge」を選び直します。
+アンインストールはWindowsの「設定」→「アプリ」→「インストールされているアプリ」から行えます。
+
+ダウンロードしたインストーラーのSHA-256は、同梱のSHA256SUMS.txtで確認できます。
+
+ライセンスとソースコード
+
+Baron BridgeはGNU General Public License version 3で配布します。
+ライセンス全文はCOPYING.txt、第三者のライセンス情報はTHIRD-PARTY-NOTICES.txtにあります。
+対応するソースコードとビルド手順は、このZIP内のSource\Windows\BaronBridgeにあります。

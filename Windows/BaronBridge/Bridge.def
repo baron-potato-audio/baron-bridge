@@ -1,0 +1,7 @@
+; Copyright (C) 2026 Baron Potato
+; SPDX-License-Identifier: GPL-3.0-only
+
+LIBRARY BaronBridge
+EXPORTS
+    DllGetClassObject PRIVATE
+    DllCanUnloadNow PRIVATE
